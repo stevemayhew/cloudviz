@@ -1,4 +1,6 @@
 #!/usr/bin/python
+### Uncomment and add #! to use on mac
+### /Library/Frameworks/Python.framework/Versions/2.7/bin/python
 
 """
 cloudviz.py
@@ -32,7 +34,7 @@ import sys
 import cgi
 import operator
 from datetime import datetime, timedelta
-from django.utils import simplejson
+import simplejson
 from pytz import timezone
 import pytz
 
